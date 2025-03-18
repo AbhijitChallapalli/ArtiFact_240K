@@ -3,10 +3,11 @@ This dataset is designed for deepfake detection challenge for Datathon 2025 and 
 1. Human Faces
 2. Animals
 3. Vehicles
-
+   
 Dataset Structure:
-'''ArtiFact_240K/
-│── '''train/'''
+```bash
+ArtiFact_240K/
+│── train/
 │   ├── real/
 │   │   ├── human_faces/
 │   │   ├── animals/
@@ -36,7 +37,7 @@ Dataset Structure:
 │── metadata.csv  # Logs image paths, labels, and class
 │── LICENSE       # MIT License
 │── README.md     # Dataset Documentation
-
+```
 
 This dataset is split into:
 - train: 70% (168,000 images)
