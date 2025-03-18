@@ -5,8 +5,8 @@ This dataset is designed for deepfake detection challenge for Datathon 2025 and 
 3. Vehicles
 
 Dataset Structure:
-ArtiFact_240K/
-│── train/
+'''ArtiFact_240K/
+│── '''train/'''
 │   ├── real/
 │   │   ├── human_faces/
 │   │   ├── animals/
