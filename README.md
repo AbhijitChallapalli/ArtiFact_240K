@@ -55,7 +55,7 @@ If you use this dataset, please cite the ArtiFact Dataset:
 }
 ```
 
-Metadata Format
+**Metadata Format:**
 A **metadata file (`metadata.csv`)** is provided, containing **image paths, labels, and class names**.
 
 | **Column**    | **Description** |
@@ -67,14 +67,14 @@ A **metadata file (`metadata.csv`)** is provided, containing **image paths, labe
 Example `metadata.csv`:
 
 image_path,label,class 
-train/real/human_faces/human_faces_00001.jpg,0,human_faces 
-train/fake/human_faces/human_faces_00001.jpg,1,human_faces 
-train/real/animals/animals_00001.jpg,0,animals 
-train/fake/animals/animals_00001.jpg,1,animals 
-train/real/vehicles/vehicles_00001.jpg,0,vehicles 
-train/fake/vehicles/vehicles_00001.jpg,1,vehicles
+
+1. train/real/human_faces/human_faces_00001.jpg,0,human_faces 
+2. train/fake/human_faces/human_faces_00001.jpg,1,human_faces 
+3. train/real/animals/animals_00001.jpg,0,animals 
+4. train/fake/animals/animals_00001.jpg,1,animals 
 
 
-License:
-This dataset is licensed under the MIT License. See the LICENSE file for more details.
+
+**License:**
+This dataset is licensed under the MIT License. See the [LICENSE](https://github.com/AbhijitChallapalli/ArtiFact_240K?tab=MIT-1-ov-file) file for more details.
 
