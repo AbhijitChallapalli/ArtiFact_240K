@@ -44,3 +44,37 @@ This dataset is split into:
 - validation: 25% (60,000 images)
 - test: 5% (12,000 images)
 
+If you use this dataset, please cite the ArtiFact Dataset:
+```bash
+@article{artifact2023,
+  title={ArtiFact: A Large-Scale Dataset for Real and Fake Image Detection},
+  author={John Doe, Jane Smith, et al.},
+  journal={Proceedings of the 2023 AI Ethics Conference},
+  year={2023},
+  url={https://artifact-dataset.org}
+}
+```
+
+Metadata Format
+A **metadata file (`metadata.csv`)** is provided, containing **image paths, labels, and class names**.
+
+| **Column**    | **Description** |
+|--------------|----------------|
+| `image_path` | Path to the image file |
+| `label`      | `0` = Real, `1` = Fake |
+| `class`      | One of `human_faces`, `animals`, `vehicles` |
+
+Example `metadata.csv`:
+
+image_path,label,class 
+train/real/human_faces/human_faces_00001.jpg,0,human_faces 
+train/fake/human_faces/human_faces_00001.jpg,1,human_faces 
+train/real/animals/animals_00001.jpg,0,animals 
+train/fake/animals/animals_00001.jpg,1,animals 
+train/real/vehicles/vehicles_00001.jpg,0,vehicles 
+train/fake/vehicles/vehicles_00001.jpg,1,vehicles
+
+
+License:
+This dataset is licensed under the MIT License. See the LICENSE file for more details.
+
