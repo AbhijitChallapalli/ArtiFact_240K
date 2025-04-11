@@ -31,9 +31,7 @@ ArtiFact_240K/
 │   │   ├── animals/
 │   │   ├── vehicles/
 │   ├── fake/
-│   │   ├── human_faces/
-│   │   ├── animals/
-│   │   ├── vehicles/
+│   │   ├── All Test images
 │── metadata.csv  # Logs image paths, labels, and class
 │── LICENSE       # MIT License
 │── README.md     # Dataset Documentation
