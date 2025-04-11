@@ -3,7 +3,8 @@ This dataset is designed for deepfake detection challenge for Datathon 2025 and 
 1. Human Faces
 2. Animals
 3. Vehicles
-   
+
+Dataset link for download: [Link]([url](https://drive.google.com/file/d/1kPPz8eECrYgz3ZaDXNgf1a7hXh3160sS/view?usp=drive_link))
 Dataset Structure:
 ```bash
 ArtiFact_240K/
