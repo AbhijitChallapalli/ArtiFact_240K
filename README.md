@@ -33,9 +33,9 @@ ArtiFact_240K/
 ```
 
 This dataset is split into:
-- train: 70% (168,000 images)
+- train: 70% (167,998 images)
 - validation: 25% (60,000 images)
-- test: 5% (12,000 images)
+- test: 5% (12,002 images)
 
 If you use this dataset, please cite the ArtiFact Dataset:
 ```bash
